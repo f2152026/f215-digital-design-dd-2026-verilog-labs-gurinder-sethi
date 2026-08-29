@@ -58,14 +58,14 @@ module cla4(
   and #(2) (p2_g1, p2, g1);
   and #(2) (p2_p1_g0, p2, p1, g0);
   and #(2) (p2_p1_p0_cin, p2, p1, p0, cin);
-  or #(2) (c3, p2_g1, p2_p1_g0, p2_p1_p0_cin);
+  or #(2) (c3, g2, p2_g1, p2_p1_g0, p2_p1_p0_cin);
 
   wire p3_g2, p3_p2_g1, p3_p2_p1_g0, p3_p2_p1_p0_cin;
   and #(2) (p3_g2, p3, g2);
   and #(2) (p3_p2_g1, p3, p2, g1);
   and #(2) (p3_p2_p1_g0, p3, p2, p1, g0);
   and #(2) (p3_p2_p1_p0_cin, p3, p2, p1, p0, cin);
-  or #(2) (c4, p3_g2, p3_p2_g1, p3_p2_p1_g0, p3_p2_p1_p0_cin);
+  or #(2) (c4, g3, p3_g2, p3_p2_g1, p3_p2_p1_g0, p3_p2_p1_p0_cin);
 
   xor #(2) (sum[0], p0, cin);
   xor #(2) (sum[1], p1, c1);
