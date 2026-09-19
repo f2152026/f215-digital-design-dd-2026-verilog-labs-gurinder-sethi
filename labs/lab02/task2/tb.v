@@ -3,7 +3,7 @@
 
 module tb;
 
-  // TODO: declare the inputs and outputs
+  // TODO: declare the inputs and output
   reg [2:0] t_sel;
   wire [7:0] t_dout;
   reg [7:0] expected_val;
