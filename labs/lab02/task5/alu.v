@@ -10,7 +10,7 @@
 //   2. A blocking/non-blocking bug in the subtract path.
 //
 // Write your own tb.v, use it to find both problems, then fix this file
-// and re-test before submitting.
+// and re-test before submitting
 
 module alu (
   input      [3:0] a,

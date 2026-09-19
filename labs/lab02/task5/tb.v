@@ -25,6 +25,7 @@ module tb;
     end
 
     initial begin
+        
         errors = 0;
         total_tests = 0;
         for(i=0; i<16; i++) begin
