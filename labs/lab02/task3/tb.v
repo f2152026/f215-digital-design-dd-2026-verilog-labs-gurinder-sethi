@@ -31,7 +31,6 @@ module tb;
     initial begin
         errors = 0;
         total_tests = 0;
-
         for(i=0; i<4; i++) begin
             for(j=0; j<4; j++) begin
                 t_a = i;
